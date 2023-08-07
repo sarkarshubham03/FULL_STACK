@@ -98,6 +98,7 @@ li {
     border-radius: 5px;
     margin-left: 40px;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .img {
@@ -126,6 +127,7 @@ li {
     background-color: rgb(105, 239, 105);
     color: white;
     border-color: rgb(105, 239, 105);
+    cursor: pointer;
 }
 
 .C {
@@ -214,7 +216,7 @@ form {
 
 .b9 {
     font-size: 100px;
-    opacity: 0.5;
+    opacity: 0.3;
     color: rgb(105, 239, 105);
 }
 
@@ -228,7 +230,7 @@ form {
 
 .b12 {
     font-size: 100px;
-    opacity: 0.5;
+    opacity: 0.3;
     color: rgb(105, 239, 105);
 }
 
@@ -242,25 +244,25 @@ form {
 
 .b15 {
     font-size: 100px;
-    opacity: 0.5;
+    opacity: 0.3;
     color: rgb(105, 239, 105);
 }
 
 .b18 {
     font-size: 100px;
-    opacity: 0.5;
+    opacity: 0.3;
     color: rgb(105, 239, 105);
 }
 
 .b21 {
     font-size: 100px;
-    opacity: 0.5;
+    opacity: 0.3;
     color: rgb(105, 239, 105);
 }
 
 .b24 {
     font-size: 100px;
-    opacity: 0.5;
+    opacity: 0.3;
     color: rgb(105, 239, 105);
 }
 
@@ -343,6 +345,7 @@ form {
     margin-left: 90px;
     width: 65px;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .e5 {
@@ -459,24 +462,28 @@ form {
 }
 
 .img3 {
-    border-radius: 060%;
-    border: 4px solid green;
+    height: 165px;
+  width: 165px;
+    border-radius: 50%;
+    border: 4px solid rgb(5, 154, 5);
     margin-left: 70px;
     margin-top: 70px;
 }
 
 .f5 {
-    font-size: 150px;
-    color: rgb(2, 86, 2);
-    margin-left: 260px;
-    margin-top: -180px;
+    font-size: 80px;
+    color: rgb(11, 133, 11);
+    margin-left: 195px;
+    margin-top: -175px;
+    
 
 }
 
 .f6 {
     color: rgb(52, 141, 52);
     margin-left: 70px;
-    margin-top: 40px;
+    margin-top: 90px;
+    
 }
 
 .f7 {
@@ -486,7 +493,22 @@ form {
     background-color: green;
     color: white;
     border-color: green;
+   
+    cursor: pointer;
+    box-shadow: 0 9px #999;
+    border-radius: 15px;
+    opacity: 0.6;
+    transition: 0.3s;
 }
+.f7:hover {background-color: #3e8e41}
+.f7:hover {opacity: 1}
+
+.f7:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 
 /* .section3{
     height: 1000px;
@@ -520,6 +542,7 @@ form {
     width: 100px;
     margin-left: 150px;
     border-radius: 5%;
+    cursor: pointer;
 
 }
 
@@ -529,6 +552,7 @@ form {
     width: 100px;
     margin-left: 100px;
     border-radius: 5%;
+    cursor: pointer;
 
 }
 
@@ -551,17 +575,20 @@ form {
 
 i9 {
     margin-left: 100px;
+    cursor: pointer;
 
 
 }
 
 i10 {
     margin-left: 20px;
+    cursor: pointer;
 
 }
 
 i11 {
     margin-left: 20px;
+    cursor: pointer;
 }
 
 .f16 {
@@ -620,6 +647,7 @@ i11 {
     margin-left: 1000px;
     margin-top: -100px;
     float: left;
+    cursor: pointer;
 }
 
 i46 {
@@ -643,4 +671,12 @@ i46 {
     text-align: center;
     color: white;
     padding-top: 120px;
+}
+i12{
+    margin-left: 0px;
+}
+i12:link{text-decoration: none;}
+.y2{
+    color: white;
+    margin-left: 92%;
 }
